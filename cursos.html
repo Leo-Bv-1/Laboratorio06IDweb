@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+</head>
+<body>
+    <header>
+        <h1>Cursos</h1>
+        <menu>
+            <a href="index.html">Regresar</a> | <a href="registro.html">Registrarse</a> | <a href="lenguajes.html">Lenguajes</a> | <a href="validacion.html">Validación</a>
+        </menu>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Formulario de inscripcion a curso</legend>
+                <label for="nombre">Nombres:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre:">
+                <br><br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Escriba su apellido:">
+                <br><br>
+                <label for="DNI">DNI:</label>
+                <input type="number" id="DNI" name="DNI" placeholder="Escriba su DNI" minlength="6" maxlength="6">
+                <br><br>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+                <br><br>
+                <label>Selección de curso:</label> <br>
+                <input type="radio" id="curso1">
+                <label for="curso1">Curso 1</label>                
+                <input type="radio" id="curso2">
+                <label for="curso2">Curso 2</label>                
+                <input type="radio" id="curso2">
+                <label for="curso3">Curso 3</label>
+                <br><br>
+                <label>Modalidad:</label> <br>
+                <input type="radio" id="Presencial" name="Modalidad">
+                <label for="Presencial">Presencial</label>
+                <input type="radio" id="Virtual" name="Modalidad">
+                <label for="Virtual">Virtual</label>
+                <br><br>
+                <label>Elegir horarios:</label> <br>
+                <input type="radio" id="Mañana">
+                <label for="Mañana">Mañana</label>                
+                <input type="radio" id="Tarde">
+                <label for="Tarde">Tarde</label>                
+                <input type="radio" id="Noche">
+                <label for="Noche">Noche</label>
+                <br><br>
+                <label>Comentarios:</label>
+                <textarea name="Comentarios" placeholder="Escriba comentarios"></textarea>
+                <br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Restablecer</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
